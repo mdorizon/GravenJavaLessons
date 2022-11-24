@@ -7,7 +7,15 @@ public class Main {
 		
 		// boucle do while
 		
+		/**
+		int i = 0;
 		
+		do {
+			System.out.println("un tour avant execution du while");
+		} while(i != 1); {
+			i++;
+		}
+		*/
 		
 		// boucle while
 		/**
