@@ -4,10 +4,20 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
+		// boucle do while
+		
+		
+		
 		// boucle while
+		/**
+		int i = 0;
 		
-		
-		
+		while(i != 7) {
+			i++;
+			System.out.println(i);
+		}
+		*/
 		
 		// boucle foreach
 		
