@@ -4,9 +4,28 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//boucle foreach
+		// boucle while
 		
 		
+		
+		
+		// boucle foreach
+		
+		/**
+		String pseudoss = "Wakusay,Elyo,Flawoole,Scriwhite,Test";
+		String[] pseudos = pseudoss.split(",");
+		int[] notes = {7, 8, 12, 2};
+		int calcul = 0;
+		
+		for(int note : notes) {
+			calcul += note;
+		}
+		System.out.println("la moyenne est de " + (calcul / notes.length));
+		
+		for(String str : pseudos) {
+			System.out.println(str);
+		}
+		*/
 		
 		// boucle for
 		
