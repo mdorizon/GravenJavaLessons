@@ -5,6 +5,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
+		
+		
+		//Player (les objects)
+		/**
+		Player player1 = new Player("Wakusay", 20.0, 300.0);
+		System.out.println(player1.getName()+" a " + player1.getHealth()+" points de vie");
+		
+		Player player2 = new Player("Flawoole", 30.0, 150.0);
+		System.out.println(player2.getName()+" a " + player2.getHealth()+" points de vie");
+		
+		*/
+		
 		// boucle do while
 		
 		/**
