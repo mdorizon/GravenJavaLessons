@@ -1,11 +1,37 @@
 package fr.wakusay.programme;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 @SuppressWarnings("unused")
 public class Main {
 	
 	public static void main(String[] args) {
+		
+		// les hashmaps
+		
+		/**
+		Map<String, Integer> ages = new HashMap<>();
+		ages.put("Wakusay", 18);
+		ages.put("elyo", 16);
+		ages.put("bob", 27);
+		
+		System.out.println(ages.toString());
+		
+		int moyenne = 0;
+		
+		for(Entry<String, Integer> element : ages.entrySet())
+		{
+			moyenne += element.getValue();
+			System.out.println("La clef est : "+element.getKey()+" , son age : "+element.getValue());
+		}
+		
+		moyenne /=  ages.size();
+		
+		System.out.println(moyenne);
+		*/
 		
 		//les arraylists
 		
