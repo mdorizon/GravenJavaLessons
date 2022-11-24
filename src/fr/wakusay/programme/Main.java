@@ -1,7 +1,7 @@
 package fr.wakusay.programme;
 
 public class Main {
-
+	
 	public static void main(String[] args) {
 		
 		
@@ -156,6 +156,36 @@ public class Main {
 		pseudo = "waku";
 		System.out.println(pseudo + " à maintenant " + age);
 		*/
+		
+		
+		// les fonctions
+		/**
+		int money = 850;
+		int pricephone = 800;
+		boolean hasphone = false;
+		
+		sendMessage("Test", 9);
+		sendMessage("Wakusay", 17);
+		sendMessage("La difference est de : " + getResultat(money, pricephone, hasphone), 9); //test
+		*/
+		
 	}
+	
+	// les fonctions 
+	/**
+	private static void sendMessage(String message, int number) {
+		System.out.println("ceci " + number + " est un message de test des fonctions : " + message);
+	}
+	
+	private static int getResultat(int money, int pricephone, boolean hasphone) {
+		if(money >= pricephone && !hasphone) {
+			System.out.println("tu peut acheter ce telephone");
+		} else {
+			System.out.println("tu n'a pas assez d'argent pour acheter ce telephone et en plus tu as deja un telephone");
+		}
+		
+		return money - pricephone;
+	}
+	*/
 
 }
