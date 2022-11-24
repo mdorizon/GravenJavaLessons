@@ -10,6 +10,50 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
+		
+		
+		
+		
+		// les exceptions
+		
+		/**
+		int[] numbers = { 4, 7, 9, 1 };
+		
+		try {
+			System.out.println(numbers[4]);
+		} catch(ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
+		} finally {
+			System.out.println("finnaly");
+		}
+		
+		//créer une exception
+		
+		double balance = 5000;
+		double price = 5900;
+		
+		try {
+			buy(balance, price);
+		} catch (NoMoneyException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		*/
+	}
+	/**
+	private static void buy(double balance, double price) throws NoMoneyException {
+		
+		double b = balance - price;
+		
+		if(b < 0)
+		{
+			throw new NoMoneyException();
+		}
+		
+		System.out.println(b);
+	}
+	*/
+			
 		// les hashmaps
 		
 		/**
@@ -271,4 +315,4 @@ public class Main {
 	}
 	*/
 
-}
+//}
