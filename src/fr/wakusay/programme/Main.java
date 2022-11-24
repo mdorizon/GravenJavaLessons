@@ -1,8 +1,29 @@
 package fr.wakusay.programme;
 
+import java.util.ArrayList;
+
+@SuppressWarnings("unused")
 public class Main {
 	
 	public static void main(String[] args) {
+		
+		//les arraylists
+		
+		/**
+		ArrayList<String> list = new ArrayList<>();
+		list.add("Texte");
+		list.add("Pomme");
+		
+		System.out.println(list);
+		
+		if(list.contains("Texte")) {
+			System.out.println("l'element existe bien");
+		}
+		
+		if(list.size() != 1) {
+			System.out.println("le tableau n'est pas egal a 1");
+		}
+		*/
 		
 		//les énumérations
 		
