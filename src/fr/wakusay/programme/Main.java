@@ -7,6 +7,18 @@ public class Main {
 		
 		
 		
+		//L'heritage avec les fruits
+		
+		/**
+		Apple a = new Apple();
+		a.taste();
+		a.miam();
+		
+		PineApple pen = new PineApple();
+		pen.taste();
+		pen.miam();
+		*/
+		
 		//Player (les objects)
 		/**
 		Player player1 = new Player("Wakusay", 20.0, 300.0);
