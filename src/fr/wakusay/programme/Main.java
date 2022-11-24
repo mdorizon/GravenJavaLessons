@@ -4,8 +4,15 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
+		//les énumérations
 		
-		
+		/**
+		for(Day moment : Day.values()) {
+			if(!moment.equals(Day.MIDI)) {
+				System.out.println("Nous sommes actuellement le "+moment.name().toLowerCase()+" il est actuellement : "+moment.getHour()+"h , "+moment.getMessage());
+			}
+		}
+		*/
 		
 		//L'heritage avec les fruits
 		
