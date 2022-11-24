@@ -1,6 +1,6 @@
 package fr.wakusay.programme;
 
-public class Apple extends Fruit {
+public class Apple extends Fruit implements PeelFruit {
 
 	public Apple() {
 		super("pomme");
@@ -19,6 +19,16 @@ public class Apple extends Fruit {
 	@Override
 	public boolean hasSeed() {
 		return true;
+	}
+
+	@Override
+	public boolean isPeeled() {
+		return false;
+	}
+
+	@Override
+	public String getSkinType() {
+		return "lisse";
 	}
 
 }

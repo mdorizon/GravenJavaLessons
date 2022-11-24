@@ -1,21 +1,19 @@
 package fr.wakusay.programme;
 
-public class PineApple extends Fruit implements PeelFruit{
-	
-	private boolean peeled = false;
+public class Kiwi extends Fruit implements PeelFruit {
 
-	public PineApple() {
-		super("ananas");
+	public Kiwi() {
+		super("kiwi");
 	}
 
 	@Override
 	public void taste() {
-		System.out.println("L'ananas a un gout un peu acide");
+		System.out.println("le gout est plutot sucré");
 	}
 
 	@Override
 	public int getSize() {
-		return 2;
+		return 1;
 	}
 
 	@Override
@@ -25,12 +23,12 @@ public class PineApple extends Fruit implements PeelFruit{
 
 	@Override
 	public boolean isPeeled() {
-		return peeled;
+		return true;
 	}
 
 	@Override
 	public String getSkinType() {
-		return "piquante";
+		return "doux";
 	}
 
 }

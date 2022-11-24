@@ -17,6 +17,11 @@ public class Main {
 		PineApple pen = new PineApple();
 		pen.taste();
 		pen.miam();
+		
+			//Les interfaces
+		if(a instanceof PeelFruit) {
+			PeelFruit fruit = pen;
+		}
 		*/
 		
 		//Player (les objects)
