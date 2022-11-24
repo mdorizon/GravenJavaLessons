@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Timer;
+import java.util.TimerTask;
 
 @SuppressWarnings("unused")
 public class Main {
@@ -13,6 +15,13 @@ public class Main {
 		
 		
 		
+		
+		//les chronometres
+		
+		/**
+		Timer chrono = new Timer();
+		chrono.schedule(new CustomTimer(), 1000, 1000);
+		*/
 		
 		// les exceptions
 		
