@@ -19,6 +19,30 @@ public class Main {
 		
 		
 		
+		
+		//les callbacks deuxième exemple
+		
+		/**
+		CustomTimer2 timer = new CustomTimer2();
+		timer.start(new TimerListener() {
+			
+			@Override
+			public void onStart() {
+				System.out.println("Lancement du chrono");
+			}
+			
+			@Override
+			public void onRun() {
+				System.out.println("loading...");
+			}
+			
+			@Override
+			public void onFinish() {
+				System.out.println("c'est fini !");
+			}
+		});
+		*/
+		
 		//les callbacks
 		
 		/**
