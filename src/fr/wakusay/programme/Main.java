@@ -1,5 +1,9 @@
 package fr.wakusay.programme;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +19,43 @@ public class Main {
 		
 		
 		
+		
+		
+		//les fichiers
+		
+		/**
+		File folder = new File("C://Users/mdori/Desktop/dossier1");
+		File file = new File("C://Users/mdori/Desktop/dossier1/doc.txt");
+		
+		if(!folder.exists()) {
+			folder.mkdir();
+		}
+		
+		if(!file.exists()) {
+			try {
+				file.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} else {
+			
+			FileWriter writer;
+			try {
+				writer = new FileWriter(file);
+				BufferedWriter bw = new BufferedWriter(writer);
+				bw.write("salut les gens c'est wakusay");
+				bw.newLine();
+				bw.write("comment ça va ?");
+				bw.newLine();
+				bw.write("test");
+				bw.close();
+				writer.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+		}
+		*/
 		
 		//les chronometres
 		
