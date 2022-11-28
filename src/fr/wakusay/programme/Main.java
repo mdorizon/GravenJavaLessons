@@ -19,7 +19,26 @@ public class Main {
 		
 		
 		
+		//les callbacks
 		
+		/**
+		substract(10, 7, new CalculListener() {
+			
+			@Override
+			public void onPositiveResult() {
+				
+				System.out.println("c'est bien");
+				
+			}
+			
+			@Override
+			public void onNegativeResult() {
+				
+				System.out.println("attention !");
+				
+			}
+		});
+		*/
 		
 		//les fichiers
 		
@@ -103,6 +122,25 @@ public class Main {
 		System.out.println(b);
 	}
 	*/
+	
+	private static void substract(int a, int b, CalculListener listener) {
+		
+		int result = a - b;
+		System.out.println("le resultat de la soustraction est : "+result);
+		
+		if(result > 0) {
+			
+			System.out.println("le resultat est positif");
+			listener.onPositiveResult();
+			
+		} else {
+			
+			System.out.println("le resultat est négatif");
+			listener.onNegativeResult();
+			
+		}
+		
+	}
 			
 		// les hashmaps
 		
